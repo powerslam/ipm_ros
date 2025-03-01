@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find ipm)/launch/camera.launch"/>
+    <node name="ipm_node" pkg="ipm" type="ipm_node" output="screen" />
+</launch>
